@@ -1,0 +1,79 @@
+.about-container{
+    margin: 0px auto;
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.about-content{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    max-width: 1500px;
+}
+
+.aboutIntro{
+    line-height: 1.5;
+    color: #413f3f;
+    height: 400px;
+    max-width: 800px;
+    text-align: center;
+    padding: 40px ;
+}
+
+.aboutIntro h2{
+    font-size: 40px;
+}
+
+.aboutIntro p{
+    font-size: 20px;
+}
+
+.abouContainerItems {
+    color: #666;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-bottom: 150px;
+  }
+  
+  .abouContainerItems:nth-child(odd) {
+    flex-direction: row-reverse; /* Tek sıra numaralı öğeleri tersine çevir */
+
+  }
+  
+  .abouContainerItems img {
+    width: 50%; /* Fotoğrafın genişliği */
+    margin-left: 10px; /* Paragraftan fotoğrafa boşluk */
+    
+  }
+  
+  .abouContainerItems p {
+    width: 45%; /* Paragrafın genişliği */
+    margin-right: 10px; /* Fotoğraftan paragrafa boşluk */
+  }
+
+  .abouContainerItems:nth-child(odd) p{
+    padding-left: 80px;
+  }
+
+  .abouContainerItems:nth-child(odd) h{
+    padding-left: 80px;
+  }
+
+  .aboutDesc p{
+    width: 80%;
+    font-size: 20px;
+    
+  }
+
+  .aboutDesc h{
+    font-size: 2rem;
+    
+  }
+
+  .aboutDesc{
+    padding: 20px;
+  }
